@@ -1,18 +1,18 @@
 version: '0.0.2'
 defaultReplacements:
-  dependencies: ""
+  dependencies: "cloth-config"
   fabric_dependencies: ""
   forge_dependencies: ""
   neoforge_dependencies: ""
   licensename: "LICENSE"
-  author: "tr7zw"
-  group: "dev.tr7zw"
-  licenseName: "tr7zw Protective License"
+  author: "HaXr"
+  group: "dev.haxr"
+  licenseName: "LGPL 3.0"
   description: "Allan, please add details!"
-  homepageUrl: "https://github.com/tr7zw"
-  sourcesUrl: "https://github.com/tr7zw"
-  issuesUrl: "https://github.com/tr7zw"
-  mcpublishVersion: "3.3.0"
+  homepageUrl: "https://github.com/HaXrBOT"
+  sourcesUrl: "https://github.com/HaXrBOT"
+  issuesUrl: "https://github.com/HaXrBOT"
+  mcpublishVersion: "2.0.2"
   breaks: ""
 customEntries:
   - versions/1.16.5-fabric/gradle.properties
