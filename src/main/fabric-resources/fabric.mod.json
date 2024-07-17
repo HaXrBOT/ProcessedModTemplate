@@ -14,7 +14,7 @@
     "license": "${license_name}",
     "icon": "icon.png",
     "entrypoints": {
-        "client": [
+        "main": [
             "${fabric_entrypoint}"
         ],
         "modmenu": [
@@ -34,7 +34,7 @@
     "custom": {
         "modmenu": {
             "links": {
-                "modmenu.discord": "https://discord.gg/UdfNaDtbwb"
+                "modmenu.discord": "https://discord.gg/Kss5gBgeDA"
             }
         }
     }
