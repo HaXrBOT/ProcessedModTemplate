@@ -203,6 +203,7 @@ processResources {
 			license_name: "$licenseName$",
 			mod_id              : "$id$", mod_name: "$name$", version: "$version$${getVersionMetadata()}",
 			mod_author         : "$author$", pack_format_number: versionsMap[mcVersion],
+			mod_contributor    : "$contributor$",
 	]
 	inputs.properties replaceProperties
 
