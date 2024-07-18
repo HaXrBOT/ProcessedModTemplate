@@ -16,6 +16,7 @@ defaultReplacements:
   issuesUrl: "https://github.com/HaXrBOT"
   mcpublishVersion: "2.0.2"
   breaks: ""
+  fabric_entrypoint_type: "main"
 customEntries:
   - versions/1.16.5-fabric/gradle.properties
   - versions/1.16.5-forge/gradle.properties
