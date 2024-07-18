@@ -4,6 +4,7 @@ defaultReplacements:
   fabric_dependencies: ""
   forge_dependencies: ""
   neoforge_dependencies: ""
+  mcpublish_dependencies: "cloth-config"
   licensename: "LICENSE"
   author: "HaXr"
   group: "dev.haxr"

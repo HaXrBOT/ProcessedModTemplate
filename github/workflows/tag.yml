@@ -18,8 +18,8 @@ jobs:
         run: chmod +x ./gradlecw
       - name: build
         run: ./gradlecw build -Pbuild.release=true
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: 'versions/**/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
+      # - name: Release
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     files: 'versions/**/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
 $autoreleasesteps$
