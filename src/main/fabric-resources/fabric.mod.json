@@ -16,23 +16,16 @@
     },
     "license": "${license_name}",
     "icon": "icon.png",
-    "entrypoints": {
-        "${fabric_entrypoint_type}": [
-            "${fabric_entrypoint}"
-        ],
-        "modmenu": [
-            "${fabric_modmenu_entrypoint}"
-        ]
-    },
+    "entrypoints": $fabric_entrypoints$,
     "mixins": [
-        "${mod_id}.mixins.json"
+        $mixins$
     ],
     "depends": {
         "minecraft": "${minecraft_version_range_fabric}",
         "${fabric_api_name}": "*"
     },
     "breaks": {
-        "tlskincape": "*"$breaks$
+        $breaks$
     },
     "custom": {
         "modmenu": {

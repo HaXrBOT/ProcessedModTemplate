@@ -4,10 +4,8 @@ defaultReplacements:
   fabric_dependencies: ""
   forge_dependencies: ""
   neoforge_dependencies: ""
-  repositories: >
-    maven {
-      url "https://cursemaven.com"
-    }
+  repositories:
+    - maven { url "https://cursemaven.com" }
   mcpublish_dependencies: "cloth-config"
   licensename: "LICENSE"
   author: "HaXr"
@@ -20,7 +18,11 @@ defaultReplacements:
   issuesUrl: "https://github.com/HaXrBOT"
   mcpublishVersion: "2.0.2"
   breaks: ""
-  fabric_entrypoint_type: "main"
+  mixins: |
+    {"config": "${mod_id}.mixins.json", "environment": "client"}
+  fabric_entrypoints: | 
+    {"main": ["grondag.darkness.DarknessInit"], "client": ["grondag.darkness.client.DarknessClientInit"], "modmenu": ["grondag.darkness.config.ModMenuIntegration"]}
+
 customEntries:
   - versions/1.16.5-fabric/gradle.properties
   - versions/1.16.5-forge/gradle.properties
