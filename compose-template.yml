@@ -4,6 +4,10 @@ defaultReplacements:
   fabric_dependencies: ""
   forge_dependencies: ""
   neoforge_dependencies: ""
+  repositories: >
+    maven {
+      url "https://cursemaven.com"
+    }
   mcpublish_dependencies: "cloth-config"
   licensename: "LICENSE"
   author: "HaXr"

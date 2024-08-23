@@ -266,6 +266,7 @@ repositories {
 	maven {
 		url "https://cursemaven.com"
 	}
+	$repositories$
 	mavenLocal()
 }
 
